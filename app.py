@@ -7,7 +7,7 @@ import django
 
 # Простейшее использование — просто вывод версий и приветствия
 if __name__ == "__main__":
-    print("Hello from latest variant!")
+    print("Hello from old variant!")
     print(f"Flask version: {flask.__version__}")
     print(f"Requests version: {requests.__version__}")
     print(f"Jinja2 version: {jinja2.__version__}")
